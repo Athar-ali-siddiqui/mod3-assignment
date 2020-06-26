@@ -1,0 +1,49 @@
+#nav {
+  background-color: chocolate;
+}
+* {
+  box-sizing: border-box;
+}
+.navbar-brand,
+ul > li > a {
+  color: crimson;
+}
+div > h1 {
+  margin: 40px 0px 50px;
+  font-weight: bolder;
+}
+.menu {
+  background-color: rgba(250, 125, 9, 0.699);
+  border: 1px solid black;
+  position: relative;
+  margin: 5px auto;
+}
+#ct {
+  background-color: rgb(233, 102, 128);
+}
+#bt {
+  background-color: crimson;
+  color: white;
+}
+#st {
+  background-color: rgba(236, 196, 62, 0.753);
+}
+.title {
+  border: 1px solid black;
+  display: inline-block;
+  text-align: center;
+  width: 191px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+p {
+  padding-top: 40px;
+}
+.navbar-toggler {
+  border: 1px solid rgba(163, 11, 42, 0.555);
+  background-color: crimson;
+}
