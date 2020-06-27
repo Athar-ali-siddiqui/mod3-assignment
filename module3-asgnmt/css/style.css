@@ -7,6 +7,8 @@
 .navbar-brand,
 ul > li > a {
   color: crimson;
+  font-size: 1.3rem;
+  font-weight: bolder;
 }
 div > h1 {
   margin: 40px 0px 50px;
@@ -38,12 +40,20 @@ div > h1 {
   right: -1px;
   padding-top: 5px;
   padding-bottom: 5px;
+  line-height: 33px;
+  font-size: 30px;
   font-weight: 500;
 }
 p {
-  padding-top: 40px;
+  padding-top: 45px;
 }
 .navbar-toggler {
   border: 1px solid rgba(163, 11, 42, 0.555);
   background-color: crimson;
+}
+hr {
+  background-color: rgba(236, 196, 62, 0.753);
+}
+a:hover {
+  color: rgba(163, 11, 42, 0.555);
 }
